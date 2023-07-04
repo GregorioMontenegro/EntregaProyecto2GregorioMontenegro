@@ -1,0 +1,53 @@
+html{
+    background-color: aqua;
+}
+header{
+    background-color: darkgoldenrod;;
+    padding: 0;
+}
+h1{
+    background-color: rgb(43, 55, 226);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    background-color: rgb(55, 43, 226);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    background-color: rgb(55, 43, 226);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+    background-color: rgb(43, 70, 226);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nombre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.navegador{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    Nota: no se como hacer que este separado y uno al lado del otro
+    
+    
+}
+.consulta{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: aquamarine;
+}
+footer{
+    background-color: goldenrod;
+}
+.linkcol{
+    color: black;
+}
