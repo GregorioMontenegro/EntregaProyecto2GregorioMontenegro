@@ -8,22 +8,27 @@ header{
 h1{
     background-color: rgb(43, 55, 226);
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
 }
 h2{
     background-color: rgb(55, 43, 226);
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
 }
 h3{
     background-color: rgb(55, 43, 226);
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
 }
 h4{
     background-color: rgb(43, 70, 226);
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
 }
 .nombre{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
+    display: flex;
 }
 .navegador{
     font-family: Arial, Helvetica, sans-serif;
@@ -36,10 +41,24 @@ h4{
     font-weight: bold;
     font-size: 20px;
     padding: 10px 20px;
-    Nota: no se como hacer que este separado y uno al lado del otro
+    justify-content: center;
     
     
 }
+.navbarnavbar-expand-lgbg-body-tertiary{
+    display: grid;
+}
+.navbar-nav{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    justify-content:center;
+    color: black;
+    position: relative;
+    display: block;
+}
+Nota no se como hacer que este separado y uno al lado del otro
+
+    
 .consulta{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -47,7 +66,13 @@ h4{
 }
 footer{
     background-color: goldenrod;
+    display: block;
+    justify-content: right;
+    list-style: none;
 }
 .linkcol{
     color: black;
+}
+.footerlista{
+    list-style: none;
 }
